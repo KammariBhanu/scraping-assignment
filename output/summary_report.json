@@ -1,0 +1,203 @@
+{
+  "run": {
+    "started_at_utc": "2026-10-06T18:56:12+00:00",
+    "execution_time_seconds": 240.16,
+    "sources_requested": [
+      "books",
+      "quotes"
+    ],
+    "settings": {
+      "user_agent": "multi-source-scraping-assignment/1.0 (educational; polite crawler)",
+      "timeout": 15.0,
+      "max_retries": 4,
+      "backoff_factor": 1.0,
+      "delay": 0.2,
+      "workers": 4,
+      "max_pages": null,
+      "fetch_details": true,
+      "fetch_authors": true,
+      "respect_robots": true,
+      "near_duplicate_threshold": 0.92,
+      "output_dir": "output",
+      "log_dir": "logs"
+    }
+  },
+  "totals": {
+    "records_collected": 1100,
+    "records_after_cleaning": 1100,
+    "rejected_in_validation": 0,
+    "exact_duplicates_removed": 0,
+    "near_duplicates_flagged": 13,
+    "final_records": 1100
+  },
+  "per_source": {
+    "Books to Scrape": {
+      "pages_fetched": 50,
+      "pages_failed": 0,
+      "items_failed_parsing": 0,
+      "detail_requests": 1000,
+      "detail_requests_failed": 0,
+      "records_collected": 1000,
+      "records_after_cleaning": 1000,
+      "cleaning_failures": 0,
+      "rejected_in_validation": 0,
+      "rejection_reasons": {},
+      "exact_duplicates_removed": 0,
+      "near_duplicates_flagged": 13,
+      "final_records": 1000
+    },
+    "Quotes to Scrape": {
+      "pages_fetched": 10,
+      "pages_failed": 0,
+      "items_failed_parsing": 0,
+      "detail_requests": 50,
+      "detail_requests_failed": 0,
+      "records_collected": 100,
+      "records_after_cleaning": 100,
+      "cleaning_failures": 0,
+      "rejected_in_validation": 0,
+      "rejection_reasons": {},
+      "exact_duplicates_removed": 0,
+      "near_duplicates_flagged": 0,
+      "final_records": 100
+    }
+  },
+  "validation_rejection_reasons": {},
+  "duplicate_examples": [
+    {
+      "type": "near_flagged",
+      "name": "Saga, Volume 5 (Saga (Collected Editions) #5)",
+      "similar_to": "Saga, Volume 6 (Saga (Collected Editions) #6)",
+      "similarity": 0.95,
+      "source": "Books to Scrape"
+    },
+    {
+      "type": "near_flagged",
+      "name": "City of Ashes (The Mortal Instruments #2)",
+      "similar_to": "City of Glass (The Mortal Instruments #3)",
+      "similarity": 0.92,
+      "source": "Books to Scrape"
+    },
+    {
+      "type": "near_flagged",
+      "name": "The Star-Touched Queen",
+      "similar_to": "The Star-Touched Queen",
+      "similarity": 1.0,
+      "source": "Books to Scrape"
+    },
+    {
+      "type": "near_flagged",
+      "name": "Fruits Basket, Vol. 7 (Fruits Basket #7)",
+      "similar_to": "Fruits Basket, Vol. 9 (Fruits Basket #9)",
+      "similarity": 0.94,
+      "source": "Books to Scrape"
+    },
+    {
+      "type": "near_flagged",
+      "name": "Fruits Basket, Vol. 6 (Fruits Basket #6)",
+      "similar_to": "Fruits Basket, Vol. 9 (Fruits Basket #9)",
+      "similarity": 0.94,
+      "source": "Books to Scrape"
+    },
+    {
+      "type": "near_flagged",
+      "name": "Fruits Basket, Vol. 5 (Fruits Basket #5)",
+      "similar_to": "Fruits Basket, Vol. 9 (Fruits Basket #9)",
+      "similarity": 0.94,
+      "source": "Books to Scrape"
+    },
+    {
+      "type": "near_flagged",
+      "name": "Fruits Basket, Vol. 4 (Fruits Basket #4)",
+      "similar_to": "Fruits Basket, Vol. 9 (Fruits Basket #9)",
+      "similarity": 0.94,
+      "source": "Books to Scrape"
+    },
+    {
+      "type": "near_flagged",
+      "name": "Saga, Volume 3 (Saga (Collected Editions) #3)",
+      "similar_to": "Saga, Volume 6 (Saga (Collected Editions) #6)",
+      "similarity": 0.95,
+      "source": "Books to Scrape"
+    },
+    {
+      "type": "near_flagged",
+      "name": "Fruits Basket, Vol. 3 (Fruits Basket #3)",
+      "similar_to": "Fruits Basket, Vol. 9 (Fruits Basket #9)",
+      "similarity": 0.94,
+      "source": "Books to Scrape"
+    },
+    {
+      "type": "near_flagged",
+      "name": "Saga, Volume 2 (Saga (Collected Editions) #2)",
+      "similar_to": "Saga, Volume 6 (Saga (Collected Editions) #6)",
+      "similarity": 0.95,
+      "source": "Books to Scrape"
+    },
+    {
+      "type": "near_flagged",
+      "name": "Fruits Basket, Vol. 2 (Fruits Basket #2)",
+      "similar_to": "Fruits Basket, Vol. 9 (Fruits Basket #9)",
+      "similarity": 0.94,
+      "source": "Books to Scrape"
+    },
+    {
+      "type": "near_flagged",
+      "name": "Saga, Volume 1 (Saga (Collected Editions) #1)",
+      "similar_to": "Saga, Volume 6 (Saga (Collected Editions) #6)",
+      "similarity": 0.95,
+      "source": "Books to Scrape"
+    },
+    {
+      "type": "near_flagged",
+      "name": "Fruits Basket, Vol. 1 (Fruits Basket #1)",
+      "similar_to": "Fruits Basket, Vol. 9 (Fruits Basket #9)",
+      "similarity": 0.94,
+      "source": "Books to Scrape"
+    }
+  ],
+  "null_counts_in_final_dataset": {
+    "Books to Scrape": {
+      "source": 0,
+      "record_type": 0,
+      "source_url": 0,
+      "name_or_title": 0,
+      "category": 0,
+      "price": 0,
+      "currency": 0,
+      "rating": 0,
+      "availability": 0,
+      "author": 1000,
+      "author_url": 1000,
+      "author_born_date": 1000,
+      "author_born_location": 1000,
+      "tags": 1000,
+      "description": 2,
+      "scraped_at": 0,
+      "near_duplicate_of": 987
+    },
+    "Quotes to Scrape": {
+      "source": 0,
+      "record_type": 0,
+      "source_url": 0,
+      "name_or_title": 0,
+      "category": 100,
+      "price": 100,
+      "currency": 100,
+      "rating": 100,
+      "availability": 100,
+      "author": 0,
+      "author_url": 0,
+      "author_born_date": 0,
+      "author_born_location": 0,
+      "tags": 3,
+      "description": 100,
+      "scraped_at": 0,
+      "near_duplicate_of": 100
+    }
+  },
+  "errors_logged": {
+    "count": 0,
+    "first_50": []
+  }
+}
