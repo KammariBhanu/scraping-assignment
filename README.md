@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Multi-Source Web Scraping & Data Consolidation
 
 A Python pipeline that scrapes **Books to Scrape** and **Quotes to Scrape**, normalizes both into one schema,
@@ -92,3 +93,4 @@ Persist raw HTML/records (checkpointing), incremental runs keyed on URL, schedul
 
 ## AI usage summary
 Built with Claude (Anthropic). Details, prompts, and verification in `AI_USAGE.md`.
+=======
